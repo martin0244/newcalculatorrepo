@@ -28,7 +28,7 @@ def Calculator():
         elif User_input.isdigit():                  #check if User_input string is likely to be a number
             total.append(int(User_input))           # add it to the empty list
         elif User_input.isalpha():                 # check if any alphabet is pressed
-            print('Enter Number first')               #tell the user not to enter alphabet
+            print('commit second time')               #tell the user not to enter alphabet
 
 
 Calculator()                   #invoking the function
